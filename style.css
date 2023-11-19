@@ -63,8 +63,8 @@ img.admin {
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     background: #dff0f738;
-    padding: 0.5em;
-    margin-bottom: 1em;
+    padding: 1em;
+    margin-bottom: 2em;
 }
 
 /*--- Reset ---*/
