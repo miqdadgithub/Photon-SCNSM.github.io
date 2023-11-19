@@ -365,6 +365,7 @@ html {
   transition: var(--transition-1);
   z-index: 10;
   color: MediumSeaGreen;
+  text-align:center;
 }
 
 .header.active {
