@@ -228,6 +228,10 @@ ol {
     text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
     text-transform: uppercase;
 }
+.team-class{
+	text-align:center;
+}
+
 
 /*--//banner --*/
 /*--/content --*/
