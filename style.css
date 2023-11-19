@@ -359,11 +359,12 @@ html {
 .header {
   padding-block: 15px;
   position: centre;
-  top: 20;
-  left: 10;
+  top: 40;
+  left: 40;
   width: 100%;
   transition: var(--transition-1);
-  z-index: 5;
+  z-index: 10;
+  color: MediumSeaGreen;
 }
 
 .header.active {
@@ -385,9 +386,9 @@ html {
 
 /*--- Logo ---*/
 .logo {
-  position: relative;
-  min-width: 77px;
-  z-index: 2;
+  position: centre;
+  min-width: 100px;
+  z-index: 3;
 }
 
 .logo a {
