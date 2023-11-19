@@ -56,17 +56,6 @@ body.dark_theme {
   --shadow-1: 10px 10px 40px var(--card-shadow);
 }
 
-img.admin {
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-    background: #dff0f738;
-    padding: 1em;
-    margin-bottom: 2em;
-}
-
 /*--- Reset ---*/
 *,
 *::before,
@@ -250,8 +239,8 @@ img.admin {
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     background: #dff0f738;
-    padding: 0.5em;
-    margin-bottom: 1em;
+    padding: 10em;
+    margin-bottom: 2em;
 }
 
 .inner-vv-wrap h2,
