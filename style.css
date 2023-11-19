@@ -167,8 +167,8 @@ body.active {
 /*--- Header ---*/
 .header {
   padding-block: 15px;
-  position: fixed;
-  top: 0;
+  position: center;
+  top: 5;
   left: 0;
   width: 100%;
   transition: var(--transition-1);
