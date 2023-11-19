@@ -244,13 +244,13 @@ ol {
 /*--//banner --*/
 /*--/content --*/
 img.admin {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
     background: #dff0f738;
-    padding: 0.4em;
+    padding: 0.5em;
     margin-bottom: 1em;
 }
 
@@ -371,17 +371,17 @@ html {
 .header {
   padding-block: 15px;
   position: centre;
-  top: 100;
-  left: 150;
+  top: 200;
+  left: 250;
   width: 100%;
   transition: var(--transition-1);
-  z-index: 10;
+  z-index: 15;
   color: MediumSeaGreen;
   text-align:center;
 }
 
 .header.active {
-  padding-block: 15px;
+  padding-block: 20px;
   background: var(--bg-secondary);
   box-shadow: var(--shadow-1);
 }
@@ -390,7 +390,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .header.active {
@@ -400,7 +400,7 @@ html {
 /*--- Logo ---*/
 .logo {
   position: centre;
-  min-width: 150px;
+  min-width: 200px;
   z-index: 3;
 }
 
