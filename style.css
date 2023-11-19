@@ -232,7 +232,15 @@ ol {
 	text-align:center;
 }
 
-
+.portfolio-item {
+	margin-bottom: 25px;
+}
+.portfolio-item{
+	text-align:justify;
+}
+.indent1 {
+	padding-left:20px;
+}
 /*--//banner --*/
 /*--/content --*/
 img.admin {
