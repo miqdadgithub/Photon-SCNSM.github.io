@@ -1,15 +1,17 @@
-/*--- Root settings ---*/
-:root {
-  /**
-* Colors
-**/
-  --raw-seinna: hsl(120, 100%, 17%);
-  /**--sizzling-sunrise: hsl(51, 95%, 54%);
-  --scarlet: hsl(13, 96%, 47%);**/
-  --black: hsl(0, 0%, 0%);
-  --white: hsl(0, 0%, 100%);
+html {
+  font-family: var(--ff-roboto);
+  scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-size: 104%;
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 
-  /**
+body.active {
+  overflow: hidden;
+}
 * Typography
 **/
   --ff-saira-stencil-one: "Saira Stencil One", sans-serif;
@@ -119,14 +121,7 @@ ion-icon {
   color: var(--bg-primary);
 }
 
-html {
-  font-family: var(--ff-roboto);
-  scroll-behavior: smooth;
-}
 
-body.active {
-  overflow: hidden;
-}
 
 /*--- Repeated ---*/
 .container {
@@ -276,14 +271,7 @@ img.admin {
 
 .header.active {
   background: var(--bg-primary);
-}
-
-/*--- Repeated ---*/
-.container {
-  padding-inline: 10px;
-}
-
-
+} 
 /*--/tab-content --*/
 .tab-main {
     padding: 40px 0;
