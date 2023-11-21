@@ -264,7 +264,7 @@ img.admin {
 
 .header .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: centre;
   align-items: center;
   gap: 10px;
 }
