@@ -200,7 +200,7 @@ ol {
 .logo {
   position: centre;
   min-width: 77px;
-  z-index: 2;
+  z-index: 5;
 }
 
 .logo a {
@@ -248,11 +248,11 @@ img.admin {
 .header {
   padding-block: 25px;
   position: centre;
-  top: 150;
-  left: 200;
+  top: 200;
+  left: 250;
   width: 100%;
   transition: var(--transition-1);
-  z-index: 5;
+  z-index: 10;
  color: MediumSeaGreen
 }
 
