@@ -198,7 +198,7 @@ ol {
 }
 /*--- Logo ---*/
 .logo {
-  position: relative;
+  position: centre;
   min-width: 77px;
   z-index: 2;
 }
