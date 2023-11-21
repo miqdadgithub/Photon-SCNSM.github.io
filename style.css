@@ -125,7 +125,7 @@ ion-icon {
 
 /*--- Repeated ---*/
 .container {
-  padding-inline: 15px;
+  padding-inline: 25px;
 }
 a:link {
     color: #06004b;
@@ -200,7 +200,7 @@ ol {
 .logo {
   position: centre;
   min-width: 77px;
-  z-index: 10;
+  z-index: 20;
 }
 
 .logo a {
@@ -211,7 +211,7 @@ ol {
 .logo span {
   display: inline-block;
   color: var(--raw-seinna);
-  margin-left: 2px;
+  margin-left: 10px;
 }
 
 /*--/content --*/
@@ -246,13 +246,13 @@ img.admin {
 }
 /*--- Header ---*/
 .header {
-  padding-block: 25px;
+  padding-block: 20px;
   position: centre;
   top: 200;
   left: 250;
   width: 100%;
   transition: var(--transition-1);
-  z-index: 15;
+  z-index: 25;
  color: MediumSeaGreen
 }
 
